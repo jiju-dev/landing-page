@@ -56,15 +56,16 @@ a {
 
 .hero-box {
     display: flex;
+    justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    gap: 40px;
+    
 }
 
 .hero-text {
-    
+    width: 450px;
 }
 
 .main-title {
@@ -101,29 +102,46 @@ button {
 }
 
 .info-box {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding-bottom: 20px;
 }
 
 .cards {
-
+    display: flex;
+    gap: 25px;
 }
 
 .card {
-
+    width: 150px;
+    height: 200px;
+    font-size: 18px;
+    margin: 25px;
 }
 
 .card-image {
-
+    border-radius: 25px;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #3882F6;
+    margin-bottom: 10px;
 }
 
 .card-text {
-
+    margin-bottom: 50px;
+    width: 180px;
 }
 
 .quote-box {
