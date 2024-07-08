@@ -212,9 +212,14 @@ button {
     background-color: #3882F6;
     border-color: white;
     align-self: center;
+    min-width: fit-content;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #1F2937;
-    color: #F9FAF8
+    color: #F9FAF8;
+    padding: 2rem;
 }
