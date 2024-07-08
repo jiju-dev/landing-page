@@ -133,29 +133,41 @@ button {
 
 .card-image {
     border-radius: 25px;
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border: 2px solid #3882F6;
     margin-bottom: 10px;
 }
 
 .card-text {
     margin-bottom: 50px;
-    width: 180px;
+    width: 165px;
 }
 
 .quote-box {
     background: #E5E7EB;
 }
 
+.quote-author {
+    display: flex;
+    flex-direction: column;
+}
+
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .author {
-
+    align-self: flex-end;
+    padding-right: 350px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 50px;
 }
 
 .action-box {
