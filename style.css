@@ -132,7 +132,7 @@ button {
 }
 
 .card-image {
-    border-radius: 25px;
+    border-radius: 15px;
     width: 160px;
     height: 160px;
     border: 2px solid #3882F6;
@@ -157,7 +157,7 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -167,28 +167,51 @@ button {
     padding-right: 350px;
     font-size: 18px;
     font-weight: bolder;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .action-box {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.blue-box {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
+    border-radius: 10px;
 }
 
 .action-call {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .action-text {
-
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .action-subtext {
-
+    font-size: 18px;
 }
 
 .bottom-button {
+    box-sizing: content-box;
     color: white;
     background-color: #3882F6;
+    border-color: white;
+    align-self: center;
 }
 
 .footer {
