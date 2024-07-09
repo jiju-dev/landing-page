@@ -1,4 +1,5 @@
 /* style.css */
+/* note to self: for future reference, use percentages or em instead of pixels */
 
 * {
     font-family: Roboto, sans-serif;
@@ -22,7 +23,7 @@ body {
     background: #1F2937;
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -56,16 +57,18 @@ a {
 
 .hero-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
+    gap: 10%;
     
 }
 
 .hero-text {
-    width: 450px;
+    /* width: 450px; */
+    width: 45%;
 }
 
 .main-title {
@@ -99,6 +102,7 @@ button {
     color: white;
     background-color: grey;
     padding: 80px;
+    width: 45%;
 }
 
 .info-box {
@@ -215,7 +219,7 @@ button {
     min-width: fit-content;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
